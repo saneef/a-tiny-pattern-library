@@ -1,6 +1,6 @@
 .thumbnail {
-  width: 104px;
-  height: 148px;
+  min-width: 104px;
+  min-height: 148px;
   position: relative;
 }
 
