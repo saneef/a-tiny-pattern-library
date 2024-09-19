@@ -24,3 +24,9 @@
 /* Add new components below */
 
 @import "./components/thumbnail.css" layer(compositions);
+
+/* for card layout */
+@import "./components/cards.css" layer(compositions);
+
+/* for responsive card styling */
+@import "./components/responsive-cards.css" layer(compositions);
