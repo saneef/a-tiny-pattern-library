@@ -1,0 +1,33 @@
+.thumbnail {
+  width: 104px;
+  height: 148px;
+}
+
+.card {
+  margin-left: 4px;
+  border-radius: 4px;
+  background-color: #d9d9d9;
+  height: 148px;
+  position: relative;
+}
+
+.card__like {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  background-color: var(--color-primary-100);
+  width: 50px;
+  height: 24px;
+  border-radius: 4px;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--step--2);
+}
+
+.card__like_icon {
+  width: 16px;
+  height: 16px;
+  background-color: var(--color-primary-200);
+  border-radius: 4px;
+}

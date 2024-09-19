@@ -22,3 +22,5 @@
 @import "./components/doc-section.css" layer(compositions);
 @import "./components/doc-swatch.css" layer(compositions);
 /* Add new components below */
+
+@import "./components/thumbnail.css" layer(compositions);
