@@ -1,0 +1,11 @@
+.card__wrapper {
+  display: flex;
+  gap: 8px;
+  overflow: auto hidden;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+}
+
+.cards {
+  margin: 32px var(--space-s-l) 0px;
+}

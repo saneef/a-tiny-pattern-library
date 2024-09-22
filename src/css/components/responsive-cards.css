@@ -1,0 +1,12 @@
+.responsive-cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  gap: 16px;
+  margin: 32px var(--space-s-l) 0px;
+}
+
+.responsive-card {
+  aspect-ratio: 9 / 16;
+  background-color: var(--color-neutral-200);
+}
